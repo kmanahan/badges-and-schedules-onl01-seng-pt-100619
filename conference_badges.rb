@@ -18,10 +18,18 @@ end
 def printer(attendees)
   batch_badge_creator(attendees).each do |badges|
     puts badges
+<<<<<<< HEAD
   end
   assign_rooms(attendees).each do |room_assignments|
     puts room_assignments
   end
+=======
+  assign_rooms(attendees).each do |room_assignments|
+    puts room_assignments
+  end
+ 
+end
+>>>>>>> 5965f5b448c389f24fddc2f2c8d257e6f5c73672
 
 end
 
